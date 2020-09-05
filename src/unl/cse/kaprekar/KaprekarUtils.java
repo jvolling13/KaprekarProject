@@ -35,15 +35,13 @@ public class KaprekarUtils {
 		long first, second;
 		for(int i=1; i<=numDigits; i++) {
 			modulus *= 10;
-			frist = square / modlus;
+			first = square / modulus;
 			second = square % modulus;
-			if(first > 0 &&
-			   first + second = n) {
+			if(first > 0 && first + second == n) {
 				return true;
 			}
 		}
 		return false;
-		
 	}
-	
 }
+
